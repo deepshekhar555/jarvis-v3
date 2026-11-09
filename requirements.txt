@@ -1,0 +1,40 @@
+# ML (for embeddings & computer vision)
+numpy>=1.24.0
+torch>=2.0.0
+transformers>=4.30.0
+opencv-contrib-python>=4.8.0
+tensorflow>=2.13.0
+
+# HTTP & utilities
+fastapi>=0.110.0
+uvicorn[standard]>=0.27.0
+python-dotenv>=1.0.0
+requests>=2.28.0
+rich>=13.0.0
+aiofiles>=23.0.0
+beautifulsoup4>=4.12.0
+
+# LLM, chat tools, and personal knowledge store
+langchain-core>=0.2.0
+langchain-openai>=0.1.0
+langchain-community>=0.2.0
+langchain-huggingface>=0.0.3
+langchain-text-splitters>=0.2.0
+faiss-cpu>=1.8.0
+sentence-transformers>=2.6.0
+
+# Web search (Realtime mode) - optional
+tavily-python>=0.5.0
+
+# Text-to-speech (no API key needed)
+edge-tts>=6.1.0
+
+# OpenAI (Newer v1.0+ features)
+openai>=1.0.0
+python-multipart>=0.0.6
+
+# Automation & OS Control
+pywhatkit>=5.4
+screen-brightness-control>=0.23.0
+pycaw>=20240210
+psutil>=5.9.0
